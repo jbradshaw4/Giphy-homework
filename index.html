@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giphy Homework</title>
+
+	 <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+	  <h1>Giphy Search</h1>
+	
+	 <!-- Gifs will get dumped here -->
+  <div class="row">
+
+    <div id="gif-view"></div>
+
+  </div>
+
+  <div class="row">
+        <form id="gif-form" action="">
+
+          <label id="search" for="gif-input">Search for a GIF</label>
+          <input type="text" id="gif-input" required><br>
+          <!-- Button triggers new gif to be added -->
+          <input id="add-gif" type="submit" value="Submit Gif">
+        </form>
+  </div>
+
+  <div class="row">
+
+    <div class="view"></div>
+
+  </div>
+
+</div>
+
+
+   <!-- Added link to the jQuery Library -->
+      <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+      <!-- Link to Javascript: log at bottom to ensure html has loaded before logic --> 
+     <script type="text/javascript" src="assets/javascript/script.js"></script> 
+  
+</body>
+</html>
